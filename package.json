@@ -8,11 +8,15 @@
   "description": "A Turborepo course for Egghead.io",
   "main": "index.js",
   "scripts": {
+    "dev": "concurrently \"npm:dev:dashboard\" \"npm:dev:blog\" \"npm:dev:copyright\"",
     "dev:dashboard": "npm run dev -w=dashboard",
     "dev:blog": "npm run dev -w=blog",
     "dev:copyright": "npm run dev -w=copyright"
   },
   "keywords": [],
   "author": "Alejandro Nanez",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.1.0"
+  }
 }
