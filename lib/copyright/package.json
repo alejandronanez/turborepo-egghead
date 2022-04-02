@@ -6,7 +6,7 @@
   "main": "dist/index.js",
   "types": "dist/types.d.ts",
   "scripts": {
-    "watch": "parcel watch",
+    "dev": "parcel watch",
     "build": "parcel build"
   },
   "keywords": [],

@@ -9,7 +9,8 @@
   "main": "index.js",
   "scripts": {
     "dev:dashboard": "npm run dev -w=dashboard",
-    "dev:blog": "npm run dev -w=blog"
+    "dev:blog": "npm run dev -w=blog",
+    "dev:copyright": "npm run dev -w=copyright"
   },
   "keywords": [],
   "author": "Alejandro Nanez",
