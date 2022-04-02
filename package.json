@@ -10,12 +10,17 @@
   "scripts": {
     "dev": "concurrently \"npm:dev:dashboard\" \"npm:dev:blog\" \"npm:dev:copyright\"",
     "build": "concurrently \"npm:build:dashboard\" \"npm:build:blog\" \"npm:build:copyright\"",
+    "typecheck": "concurrently \"npm:typecheck:dashboard\" \"npm:typecheck:blog\" \"npm:typecheck:copyright\"",
+    "check": "concurrently \"npm:typecheck\"",
     "dev:dashboard": "npm run dev -w=dashboard",
     "dev:blog": "npm run dev -w=blog",
     "dev:copyright": "npm run dev -w=copyright",
     "build:dashboard": "npm run build -w=dashboard",
     "build:blog": "npm run build -w=blog",
-    "build:copyright": "npm run build -w=copyright"
+    "build:copyright": "npm run build -w=copyright",
+    "typecheck:dashboard": "npm run typecheck -w=dashboard",
+    "typecheck:blog": "npm run typecheck -w=blog",
+    "typecheck:copyright": "npm run typecheck -w=copyright"
   },
   "keywords": [],
   "author": "Alejandro Nanez",

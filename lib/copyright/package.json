@@ -8,7 +8,8 @@
   "types": "dist/types.d.ts",
   "scripts": {
     "dev": "parcel watch",
-    "build": "parcel build"
+    "build": "parcel build",
+    "typecheck": "tsc --noEmit src/index.ts"
   },
   "keywords": [],
   "author": "",
