@@ -11,7 +11,8 @@
     "dev": "concurrently \"npm:dev:dashboard\" \"npm:dev:blog\" \"npm:dev:copyright\"",
     "build": "concurrently \"npm:build:dashboard\" \"npm:build:blog\" \"npm:build:copyright\"",
     "typecheck": "concurrently \"npm:typecheck:dashboard\" \"npm:typecheck:blog\" \"npm:typecheck:copyright\"",
-    "check": "concurrently \"npm:typecheck\"",
+    "test": "concurrently \"npm:test:dashboard\" \"npm:test:blog\"",
+    "check": "concurrently \"npm:typecheck\" \"npm:test\"",
     "dev:dashboard": "npm run dev -w=dashboard",
     "dev:blog": "npm run dev -w=blog",
     "dev:copyright": "npm run dev -w=copyright",
@@ -20,7 +21,10 @@
     "build:copyright": "npm run build -w=copyright",
     "typecheck:dashboard": "npm run typecheck -w=dashboard",
     "typecheck:blog": "npm run typecheck -w=blog",
-    "typecheck:copyright": "npm run typecheck -w=copyright"
+    "typecheck:copyright": "npm run typecheck -w=copyright",
+    "test:dashboard": "npm run test -w=dashboard",
+    "test:blog": "npm run test -w=blog",
+    "test:copyright": "npm run test -w=copyright"
   },
   "keywords": [],
   "author": "Alejandro Nanez",
