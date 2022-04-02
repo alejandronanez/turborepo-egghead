@@ -1,16 +1,16 @@
 # Turborepo Egghead Course
 
 ## To-do
-- [ ] what is a Monorepo?
-- [ ] set up a monorepo with NPM Workspaces
-- [ ] create a Next.js application
-- [ ] create a client side React Application
-- [ ] create a TS library to share logic
-- [ ] define `npm scripts`:
-  - [ ] to run all the projects at the same time
-  - [ ] to test all the projects at the same time
-  - [ ] to build all the projects at the same time
-  - [ ] to check for errors in all the projects at the same time
+- [x] what is a Monorepo?
+- [x] set up a monorepo with NPM Workspaces
+- [x] create a Next.js application
+- [x] create a client side React Application
+- [x] create a TS library to share logic
+- [x] define `npm scripts`:
+  - [x] to run all the projects at the same time
+  - [x] to test all the projects at the same time
+  - [x] to build all the projects at the same time
+  - [x] to check for errors in all the projects at the same time
 - [ ] Introducing Turborepo
   - [ ] rewrite all the commands above to use Turborepo
 - [ ] Introduce Turborepo caching
