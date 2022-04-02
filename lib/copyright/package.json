@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "parcel watch",
     "build": "parcel build",
-    "typecheck": "tsc --noEmit src/index.ts"
+    "typecheck": "tsc --noEmit src/index.ts",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
