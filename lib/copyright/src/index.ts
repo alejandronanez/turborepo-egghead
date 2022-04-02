@@ -1,0 +1,1 @@
+export const companyWebsite = 'https://egghead.io'
