@@ -11,7 +11,7 @@
     "dev": "concurrently \"npm:dev:dashboard\" \"npm:dev:blog\" \"npm:dev:copyright\"",
     "build": "concurrently \"npm:build:dashboard\" \"npm:build:blog\" \"npm:build:copyright\"",
     "typecheck": "concurrently \"npm:typecheck:dashboard\" \"npm:typecheck:blog\" \"npm:typecheck:copyright\"",
-    "test": "concurrently \"npm:test:dashboard\" \"npm:test:blog\"",
+    "test": "concurrently \"npm:test:dashboard\" \"npm:test:blog\" \"npm:test:copyright\"",
     "check": "concurrently \"npm:typecheck\" \"npm:test\"",
     "dev:dashboard": "npm run dev -w=dashboard",
     "dev:blog": "npm run dev -w=blog",
