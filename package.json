@@ -9,6 +9,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "turbo run dev",
+    "build:turbo": "turbo run build",
     "build": "concurrently \"npm:build:dashboard\" \"npm:build:blog\" \"npm:build:copyright\"",
     "typecheck": "concurrently \"npm:typecheck:dashboard\" \"npm:typecheck:blog\" \"npm:typecheck:copyright\"",
     "test": "concurrently \"npm:test:dashboard\" \"npm:test:blog\" \"npm:test:copyright\"",
