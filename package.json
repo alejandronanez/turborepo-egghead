@@ -30,6 +30,7 @@
   "author": "Alejandro Nanez",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^7.1.0"
+    "concurrently": "^7.1.0",
+    "turbo": "^1.1.10"
   }
 }
