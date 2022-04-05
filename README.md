@@ -15,8 +15,8 @@
 - [x] Install Turborepo
   - [x] rewrite the build command
   - [x] rewrite the dev command
-  - [ ] rewrite the test command
-  - [ ] rewrite the typecheck command
+  - [x] rewrite the test command
+  - [x] rewrite the typecheck command
 - [x] Introduce Turborepo local caching
 - [ ] Introduce Turborepo pipelines
 - [ ] Introduce Turborepo CLI commands
