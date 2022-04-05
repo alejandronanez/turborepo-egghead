@@ -12,16 +12,15 @@
     "build": "turbo run build",
     "test": "turbo run test",
     "typecheck": "turbo run typecheck",
-    "check": "concurrently \"npm:typecheck\" \"npm:test\"",
+    "check": "turbo run typecheck test",
     "dev:dashboard": "turbo run dev --scope=dashboard --include-dependencies",
     "dev:blog": "turbo run dev --scope=dashboard --include-dependencies",
-    "dev:copyright": "turbo run dev --scope=dashboard --include-dependencies",
+    "dev:copyright": "turbo run dev --scope=dashboard --include-dependencies"
   },
   "keywords": [],
   "author": "Alejandro Nanez",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^7.1.0",
     "turbo": "^1.1.10"
   }
 }
