@@ -8,10 +8,11 @@
     "build": {
       "cache": true,
       "dependsOn": ["^build"],
-      "outputs": [
-        ".next/**",
-        "dist/**"
-      ]
+      "outputs": [".next/**"]
+    },
+    "dashboard#build": {
+      "dependsOn": ["copyright#test", "copyright#typecheck"],
+      "outputs": [".next/**"]
     },
     "test": {
       "dependsOn": ["^build"],
