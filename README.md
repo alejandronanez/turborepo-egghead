@@ -18,11 +18,15 @@
   - [x] rewrite the test command
   - [x] rewrite the typecheck command
 - [x] Introduce Turborepo local caching
-- [ ] Introduce Turborepo pipelines
+- [x] Introduce Turborepo pipelines
 - [ ] Introduce Turborepo CLI commands
   - [ ] `--scope`
+  - [ ] `--graph`
+  - [ ] `--continue`
   - [ ] `--force`
   - [ ] `--include-dependencies`
+  - [ ] `--dry / --dryRun`
+  - [ ] `--output-logs`
 - [ ] Introduce Turborepo remote caching
 - [ ] set up a CI pipeline for all the projects
   - [ ] to check for errors
