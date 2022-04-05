@@ -19,15 +19,15 @@
   - [x] rewrite the typecheck command
 - [x] Introduce Turborepo local caching
 - [x] Introduce Turborepo pipelines
-- [ ] Introduce Turborepo CLI commands
-  - [ ] `--scope`
-  - [ ] `--graph`
-  - [ ] `--continue`
-  - [ ] `--force`
-  - [ ] `--include-dependencies`
-  - [ ] `--dry / --dryRun`
-  - [ ] `--output-logs`
-- [ ] Introduce Turborepo remote caching
+- [x] Introduce Turborepo CLI commands
+  - [x] `--scope`
+  - [x] `--graph`
+  - [x] `--continue`
+  - [x] `--force`
+  - [x] `--include-dependencies`
+  - [x] `--dry / --dryRun`
+  - [x] `--output-logs`
+- [x] Introduce Turborepo remote caching
 - [ ] set up a CI pipeline for all the projects
   - [ ] to check for errors
   - [ ] to deploy the projects to Vercel
