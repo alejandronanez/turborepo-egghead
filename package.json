@@ -10,18 +10,15 @@
   "scripts": {
     "dev": "turbo run dev",
     "build": "turbo run build",
+    "test": "turbo run test",
     "typecheck": "concurrently \"npm:typecheck:dashboard\" \"npm:typecheck:blog\" \"npm:typecheck:copyright\"",
-    "test": "concurrently \"npm:test:dashboard\" \"npm:test:blog\" \"npm:test:copyright\"",
     "check": "concurrently \"npm:typecheck\" \"npm:test\"",
     "dev:dashboard": "turbo run dev --scope=dashboard --include-dependencies",
     "dev:blog": "turbo run dev --scope=dashboard --include-dependencies",
     "dev:copyright": "turbo run dev --scope=dashboard --include-dependencies",
     "typecheck:dashboard": "npm run typecheck -w=dashboard",
     "typecheck:blog": "npm run typecheck -w=blog",
-    "typecheck:copyright": "npm run typecheck -w=copyright",
-    "test:dashboard": "npm run test -w=dashboard",
-    "test:blog": "npm run test -w=blog",
-    "test:copyright": "npm run test -w=copyright"
+    "typecheck:copyright": "npm run typecheck -w=copyright"
   },
   "keywords": [],
   "author": "Alejandro Nanez",

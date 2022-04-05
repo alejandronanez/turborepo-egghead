@@ -12,6 +12,10 @@
         ".next/**",
         "dist/**"
       ]
+    },
+    "test": {
+      "dependsOn": ["^build"],
+      "outputs": [""]
     }
   }
 }
