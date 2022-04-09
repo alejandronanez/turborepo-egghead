@@ -22,5 +22,9 @@
   "license": "ISC",
   "devDependencies": {
     "turbo": "^1.1.10"
+  },
+  "volta": {
+    "node": "14.19.1",
+    "npm": "8.6.0"
   }
 }
