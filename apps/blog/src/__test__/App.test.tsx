@@ -9,7 +9,7 @@ describe('App', () => {
     render(<App />)
 
     const heading = screen.getByRole('heading', {
-      name: /hello https:\/\/google.io/i,
+      name: /hello https:\/\/egghead.io/i,
     })
 
     expect(heading).toBeInTheDocument()
