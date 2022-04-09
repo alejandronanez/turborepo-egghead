@@ -3,12 +3,14 @@ name: CI
 on:
   - pull_request
 
+env:
+  TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
+  TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
+
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
     name: Build and Test
-  #  TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
-  #  TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
     steps:
       - name: Check out code
         uses: actions/checkout@v2
