@@ -28,6 +28,6 @@
   - [x] `--dry / --dryRun`
   - [x] `--output-logs`
 - [x] Introduce Turborepo remote caching
-- [ ] set up a CI pipeline for all the projects
+- [x] set up a CI pipeline for all the projects
   - [ ] to check for errors
   - [ ] to deploy the projects to Vercel
