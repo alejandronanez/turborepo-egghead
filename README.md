@@ -31,3 +31,4 @@
 - [x] set up a CI pipeline for all the projects
   - [x] to check for errors
   - [x] to deploy the projects to Vercel
+  - [x] enable remote caching in Github actions
