@@ -29,5 +29,5 @@
   - [x] `--output-logs`
 - [x] Introduce Turborepo remote caching
 - [x] set up a CI pipeline for all the projects
-  - [ ] to check for errors
-  - [ ] to deploy the projects to Vercel
+  - [x] to check for errors
+  - [x] to deploy the projects to Vercel
