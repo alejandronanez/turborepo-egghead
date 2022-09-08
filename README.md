@@ -1,34 +1,7 @@
-# Turborepo Egghead Course
+# This was the draft project for the NPM + Turborepo course for Egghead.io.
 
-## To-do
-- [x] what is a Monorepo?
-- [x] set up a monorepo with NPM Workspaces
-- [x] create a Next.js application
-- [x] create a client side React Application
-- [x] create a TS library to share logic
-- [x] define `npm scripts`:
-  - [x] to run all the projects at the same time
-  - [x] to test all the projects at the same time
-  - [x] to build all the projects at the same time
-  - [x] to check for errors in all the projects at the same time
-- [x] Introducing Turborepo
-- [x] Install Turborepo
-  - [x] rewrite the build command
-  - [x] rewrite the dev command
-  - [x] rewrite the test command
-  - [x] rewrite the typecheck command
-- [x] Introduce Turborepo local caching
-- [x] Introduce Turborepo pipelines
-- [x] Introduce Turborepo CLI commands
-  - [x] `--scope`
-  - [x] `--graph`
-  - [x] `--continue`
-  - [x] `--force`
-  - [x] `--include-dependencies`
-  - [x] `--dry / --dryRun`
-  - [x] `--output-logs`
-- [x] Introduce Turborepo remote caching
-- [x] set up a CI pipeline for all the projects
-  - [x] to check for errors
-  - [x] to deploy the projects to Vercel
-  - [x] enable remote caching in Github actions
+## NPM Workspaces Repository
+## https://github.com/alejandronanez/npm-workspaces
+
+## Monorepos with Turborepo repository
+## https://github.com/alejandronanez/turborepo-egghead-course
